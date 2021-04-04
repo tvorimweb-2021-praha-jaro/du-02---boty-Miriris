@@ -5,7 +5,151 @@ html { box-sizing: border-box; }
 
 body {
     text-rendering: optimizeLegibility;
+    background-color: #f5f5f5;
+    font-family: 'Rubik', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
 }
+
+.zbozi {
+    width: 670px;
+    height: 440px;
+    margin: 30px auto;
+    position: relative;
+    z-index: -1;
+    border-radius: 20px;
+    box-shadow: 2px 2px 10px 2px #959595;
+}
+
+.vizual {
+    width: 335px;
+    height: 440px;
+    margin: 0;
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    background: linear-gradient(#06d7c1, #50cc49);
+    padding: 30px;
+    border-radius: 20px 0 0 20px;
+}
+
+.slogan {
+    margin: 30px 0;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.25;
+}
+
+.bota {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    z-index: 1;
+}
+
+.cenovka {
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+}
+
+.slogan,
+.cena,
+.zaruka {
+    color: white;
+}
+
+.cena {
+    font-size: 28px;
+    font-weight: 500;
+    text-align: right;
+}
+
+.zaruka {
+    font-size: 12px;
+    text-align: right;
+}
+
+.detaily {
+    width: 335px;
+    height: 440px;
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 335px;
+    background-color: white;
+    padding: 30px;
+    border-radius: 0 20px 20px 0;
+}
+
+h1 {
+    margin: 0;
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.produkt {
+    color: #959595;
+}
+
+.popis {
+    margin: 30px 0;
+    border-bottom: 1px solid #06d7c1;
+    padding: 0 0 30px 0;
+}
+
+h2 {
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-top: 0;
+}
+
+.velikosti {
+    padding: 0;
+}
+
+.velikosti li {
+    display: inline-block;
+}
+
+li {
+    margin: 0 9px;
+    padding: 3px;
+    text-align: center;
+}
+
+.vybrana {
+    color: #f15f42;
+    border: 2px solid #f15f42;
+    border-radius: 50%;
+}
+
+.akce {
+    width: 140px;
+    height: 40px;
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+    background-color: #f15f42;
+    border-radius: 10px; 
+}
+
+.tlacitko {
+    display: block;
+    text-transform: uppercase;
+    color: white;
+    text-decoration: none;
+    padding: 13px;
+    text-align: center;
+}
+
+
+
+
 
 /*
  BARVY
